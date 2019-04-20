@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body onload="load_page()">
+</body>
+
+<script language="Javascript">
+
+var urls = new Array("SiteA/siteA.html", "SiteB/siteB.html", "SiteC/siteC.html");
+
+function load_page() {
+
+    window.location = urls[Math.floor(urls.length*Math.random())];
+}
+
+</script>
+</html>
